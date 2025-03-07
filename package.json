@@ -9,7 +9,8 @@
     "blinko": "^0.0.11",
     "blinko-cli": "^0.0.1",
     "typescript": "^5.0.0",
-    "vite": "^4.0.0"
+    "vite": "^4.0.0",
+    "browser-image-compression": "^2.0.2"
   },
   "description": "a blinko plugin",
   "scripts": {

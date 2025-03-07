@@ -1,16 +1,16 @@
 {
-  "name": "blinko-plugin-demo",
-  "author": "blinko-offical",
+  "name": "blinko-image-compressor",
+  "author": "jooooody",
   "url": "https://github.com/blinko-space/blinko-plugin-template",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "minAppVersion": "0.0.0",
   "displayName": {
-    "default": "Blinko plugin demo",
-    "zh": "Blinko插件示例"
+    "default": "Blinko Image Compressor",
+    "zh": "Blinko图片压缩器"
   },
   "description": {
-    "default": "This is a blinko plugin demo, you can use it as a template to create your own plugin.",
-    "zh": "这是一个blinko插件示例，你可以使用它作为模板来创建自己的插件。"
+    "default": "Automatically compress images when uploading to save storage space and bandwidth. Access compression settings through the plugin settings panel.",
+    "zh": "上传图片时自动压缩，节省存储空间和带宽。通过插件设置面板访问压缩设置。"
   },
   "readme": {
     "default": "README.md",

@@ -1,5 +1,41 @@
 {
-  "title": "我的插件",
+  "title": "图片压缩器",
   "countLabel": "计数为 {{count}}",
-  "successMessage": "成功！"
+  "successMessage": "成功！",
+  "imageCompressor": {
+    "title": "图片压缩",
+    "tooltip": "图片压缩工具",
+    "settingIconTooltip": "点击此图片编辑图标打开设置面板",
+    "settings": {
+      "title": "图片压缩设置",
+      "quality": "压缩质量",
+      "options": "压缩选项",
+      "useQuality": "使用质量压缩",
+      "useScaling": "使用百分比缩放",
+      "useSizeLimits": "使用最大尺寸限制",
+      "maintainSize": "保持原始尺寸（不调整图片分辨率）",
+      "maxWidth": "最大宽度",
+      "maxHeight": "最大高度",
+      "scalePercent": "按百分比缩放",
+      "sizeCombinationNote": "注意：百分比缩放和最大尺寸限制会同时应用，取较严格的限制值",
+      "preset": "预设",
+      "save": "保存设置",
+      "reset": "重置设置"
+    },
+    "messages": {
+      "saved": "设置已保存",
+      "resetDone": "设置已重置",
+      "compressed": "图片已压缩: {{original}} → {{compressed}} (减少 {{percent}}%)",
+      "noCompression": "图片无需压缩或压缩效果不明显",
+      "error": "压缩失败: {{message}}"
+    },
+    "preview": {
+      "title": "图片压缩预览",
+      "dragImage": "拖拽图片到此处，或点击选择",
+      "selectImage": "选择图片",
+      "original": "原始图片",
+      "compressed": "压缩后",
+      "compressNow": "立即压缩"
+    }
+  }
 } 

@@ -1,4 +1,4 @@
-# Blinko Image Compressor
+# Blinko图片压缩器
 
 一个自动压缩上传图片的Blinko插件，帮助节省存储空间和带宽。
 
@@ -64,4 +64,4 @@ bun run release:publish
 
 ## 许可证
 
-MIT
+MIT 

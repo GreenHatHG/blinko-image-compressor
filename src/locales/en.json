@@ -1,5 +1,41 @@
 {
-  "title": "My Plugin",
+  "title": "Image Compressor",
   "countLabel": "Count is {{count}}",
-  "successMessage": "Success!"
+  "successMessage": "Success!",
+  "imageCompressor": {
+    "title": "Image Compression",
+    "tooltip": "Image Compressor",
+    "settingIconTooltip": "Click this image editor icon to open settings panel",
+    "settings": {
+      "title": "Image Compression Settings",
+      "quality": "Compression Quality",
+      "options": "Compression Options",
+      "useQuality": "Use quality compression",
+      "useScaling": "Use percentage scaling",
+      "useSizeLimits": "Use maximum size limits",
+      "maintainSize": "Maintain Original Size (No resolution change)",
+      "maxWidth": "Maximum Width",
+      "maxHeight": "Maximum Height",
+      "scalePercent": "Scale by Percentage",
+      "sizeCombinationNote": "Note: Both percentage scaling and maximum dimensions will be applied together, using the more restrictive limit",
+      "preset": "Preset",
+      "save": "Save Settings",
+      "reset": "Reset Settings"
+    },
+    "messages": {
+      "saved": "Settings saved",
+      "resetDone": "Settings reset to default",
+      "compressed": "Image compressed: {{original}} → {{compressed}} ({{percent}}% reduction)",
+      "noCompression": "Image doesn't need compression or compression effect is minimal",
+      "error": "Compression failed: {{message}}"
+    },
+    "preview": {
+      "title": "Image Compression Preview",
+      "dragImage": "Drag an image here, or click to select",
+      "selectImage": "Select Image",
+      "original": "Original Image",
+      "compressed": "Compressed",
+      "compressNow": "Compress Now"
+    }
+  }
 } 
