@@ -2,18 +2,19 @@
 /// <reference types="systemjs" />
 
 import { render } from 'preact/compat';
-import { App } from "./app"
 import type { BasePlugin } from 'blinko';
-import { Setting } from './setting';
 import { CompressionPreview } from './CompressionPreview';
 import { ImageCompressor, CompressionSettings, DEFAULT_SETTINGS } from './imageCompressor';
-
+import __PLUGIN_JSON__ from '../plugin.json';
+import __en__ from './locales/en.json';
+import __zh__ from './locales/zh.json';
 /**
  * Main plugin entry point registered with SystemJS
  * Exports the plugin class implementing BasePlugin interface
  */
 System.register([], (exports) => ({
   execute: () => {
+    
     exports('default', class Plugin implements BasePlugin {
       private imageCompressor: ImageCompressor;
       private settings: CompressionSettings = DEFAULT_SETTINGS;
